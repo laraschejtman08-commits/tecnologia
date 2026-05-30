@@ -31,7 +31,7 @@ def menu_principal(nombre_usuario):
         elif opcion == "3":
             estadisticas()
         elif opcion == "4":
-            consejo_la_consulta_nueva()
+            consejo_ia_consulta_nueva()
         elif opcion == "5":
             print("GuardianClima ITBA – Aplicación de consola para consultar el clima, guardar historial, ver estadísticas y recibir consejos de vestimenta usando IA.")
             print("Desarrollado por el equipo de estudiantes del ITBA.")
