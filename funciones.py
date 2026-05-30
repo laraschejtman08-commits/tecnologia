@@ -106,7 +106,7 @@ def registrar_usuario():
 
     if errores:
         print(f"La contraseña no cumple con: {', '.join(errores)}.")
-        print("Recomendación: usa mayúsculas, minúsculas, números y al menos 8 caracteres.")
+        print("Recomendación: usa mayúsculas, minúsculas, números y al menos 8 caracteres. Por ejemplo: Guardi4nclima$")
         return
 
     with open("usuarios_simulados.csv", "a", newline='') as archivo:
